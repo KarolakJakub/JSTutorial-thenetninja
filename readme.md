@@ -1,0 +1,1 @@
+This is me working through TheNetNinja youtube JavaScript tutorial.
