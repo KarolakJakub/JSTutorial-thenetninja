@@ -1,14 +1,18 @@
 var youAre = true;
-var myNum = 9;
+var myNum = 25;
 
-if(youAre){
+if(myNum > 30){
 
-    document.write("you, in fact, are");
+    document.write("myNum is over 30");
 
 }
 
-else{
+else if(myNum > 20){
 
-    document.write("myNum is not equal to 10")
+    document.write("myNum is over 20")
+
+} else{
+
+    document.write("myNum is whatever");
 
 }
