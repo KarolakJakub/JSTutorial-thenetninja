@@ -1,18 +1,12 @@
-var youAre = true;
-var myNum = 25;
+var myAge = 25;
 
-if(myNum > 30){
+if (myAge < 18 || myAge > 30 || myAge ===25){
 
-    document.write("myNum is over 30");
-
-}
-
-else if(myNum > 20){
-
-    document.write("myNum is over 20")
+    document.write("you aint comin");
 
 } else{
 
-    document.write("myNum is whatever");
+    
+    document.write("You can come.");
 
 }
