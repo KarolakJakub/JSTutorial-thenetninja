@@ -1,8 +1,16 @@
 function getAverage (a,b){
 
     var average = (a + b) / 2;
-    console.log(average);
+    return average;
+}
+
+var myResult = getAverage(50,2);
+
+function logResult(){
+
+
+console.log("result is " + myResult);
 
 }
 
-getAverage(50,2);
+logResult();
