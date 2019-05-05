@@ -1,18 +1,7 @@
 var links = document.getElementsByTagName("a");
 
-for (i = 1; i < 10; i++) {
+for (i = 0; i < links.length; i++) {
 
-    if(i===5 || i === 3){
-
-        continue;
-    }
-
-    console.log(i);
-
-    if(i===7){
-        break;
-    }
+    links[i].className = "link-"+ i;
 
 }
-
-// document.write("you are now over 10");
