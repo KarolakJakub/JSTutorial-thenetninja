@@ -1,12 +1,11 @@
-var a = "5a";
-var b = 5;
+// var myString = "I\'am a 'string' string";
 
-if (!isNaN(a))
-{
-    console.log("thats not a number");
-}
+// if (myString.indexOf("am") === -1)
+// {
+//     console.log("not in the string");
+// }
 
-else
-{
-    console.log("you what");
-}
+var string1 = "abc";
+var string2 = "bcd";
+
+console.log(string1 === string2);
