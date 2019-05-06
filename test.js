@@ -1,6 +1,12 @@
-var a = 5;
+var a = "5a";
 var b = 5;
 
-console.log(a + b);
+if (!isNaN(a))
+{
+    console.log("thats not a number");
+}
 
-console.log(Math.PI);
+else
+{
+    console.log("you what");
+}
