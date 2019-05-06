@@ -1,16 +1,6 @@
-function getAverage (a,b){
+var a = 5;
+var b = 5;
 
-    var average = (a + b) / 2;
-    return average;
-}
+console.log(a + b);
 
-var myResult = getAverage(50,2);
-
-function logResult(){
-
-
-console.log("result is " + myResult);
-
-}
-
-logResult();
+console.log(Math.PI);
