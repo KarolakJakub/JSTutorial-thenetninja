@@ -1,11 +1,22 @@
-// var myString = "I\'am a 'string' string";
+var myArray = new Array();
+myArray[0] = 8;
 
-// if (myString.indexOf("am") === -1)
-// {
-//     console.log("not in the string");
-// }
+var myCar = new Object();
+myCar.maxSpeed = 50;
+myCar.driver = "Janusz";
+myCar.drive = function(){console.log("now driving");};
 
-var string1 = "abc";
-var string2 = "bcd";
 
-console.log(string1 === string2);
+console.log(myCar.driver+", "+ myCar.maxSpeed);
+myCar.drive();
+
+var myCar2 = {
+    maxSpeed: 40,
+    driver: "Andrzej",
+    drive: function(speed, time) {
+          console.log(speed * time);
+        }
+    };
+
+console.log(myCar2.maxSpeed);
+myCar2.drive(50, 3);
